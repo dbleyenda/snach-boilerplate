@@ -77,7 +77,10 @@ function watch(){
     gulp.watch(`${paths.src}/assets/scss/**/*.scss`, compileSCSS);
 
     // Watch JS Task
-    gulp.watch(`${paths.src}/assets/scripts/**/*.js`).on('change', server.reload);
+    gulp.watch(`${paths.src}/assets/scripts/**/*.js`).on('change', function(){
+        copyAssets();
+        server.reload();
+    });
 
 }
 
