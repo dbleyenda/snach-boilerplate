@@ -1,7 +1,7 @@
 {
   "name": "snach-static-website-boilerplate",
   "version": "1.0.0",
-  "description": "Mi propio HTML5 boilerplate para sitios web estaticos, con SASS y HTML includes",
+  "description": "My own HTML5 boilerplate for static websites, with SASS and HTML includes.",
   "main": "scr/index.html",
   "author": "Ignacio Sans",
   "devDependencies": {
